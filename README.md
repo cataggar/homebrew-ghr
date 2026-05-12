@@ -7,3 +7,9 @@ Homebrew tap for [ghr](https://github.com/cataggar/ghr)
 ```sh
 brew install cataggar/ghr/ghr
 ```
+
+## Uninstall
+
+```sh
+brew uninstall ghr
+```
