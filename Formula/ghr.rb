@@ -1,28 +1,28 @@
 class Ghr < Formula
   desc "Installer for GitHub releases"
   homepage "https://github.com/cataggar/ghr"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/cataggar/ghr/releases/download/v#{version}/ghr-#{version}-macos-arm64.tar.gz"
-      sha256 "38c696649a7f5abf6b19678e393b0fb14bf811e9a68cbda550e352f60dd25002"
+      sha256 "0879a6b2bbfda9a1cd6cc873624e029fc4aec6e12e64da1892469c41d3e200df"
     end
     on_intel do
       url "https://github.com/cataggar/ghr/releases/download/v#{version}/ghr-#{version}-macos-x64.tar.gz"
-      sha256 "99d36bf4c8b491f5a7abe8f3953f4f122933127c996c79023a734e02fa9c7e7c"
+      sha256 "36058889794f2efb89268a48fa3fc0cd0de9ec16f86db6f2974bca954568f8e4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/cataggar/ghr/releases/download/v#{version}/ghr-#{version}-linux-arm64.tar.gz"
-      sha256 "bc92713f62fdb882900a5f389d59da814954beebb07f3f23a5ed5917317b5c94"
+      sha256 "6dc94a15e654732aa373dbd4d29270451f9d626735f8e1d4dddab825fa8bba8a"
     end
     on_intel do
       url "https://github.com/cataggar/ghr/releases/download/v#{version}/ghr-#{version}-linux-x64.tar.gz"
-      sha256 "6d75ba3c00b1a96ce5ff940529d30ffb4203fb08a4ac1e85c11d557b7daf69c5"
+      sha256 "51ea37b05d00a029b1ba7bb941e32f130bbe3cf5791e728a7e3070c070fe3f61"
     end
   end
 
